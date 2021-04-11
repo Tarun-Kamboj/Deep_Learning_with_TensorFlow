@@ -14,7 +14,7 @@ Recurrent Neural Networks are Deep Learning models with simple structures and a 
 The Recurrent Neural Network is a specialized type of Neural Network that solves the issue of **maintaining context for Sequential data** -- such as Weather data, Stocks, Genes, etc. At each iterative step, the processing unit takes in an input and the current state of the network, and produces an output and a new state that is <b>re-fed into the network</b>.
 
 <p align="center">
-	<img src="Images/img0.png">
+	<img width="500px" src="Images/img0.png">
 	Representation of a Recurrent Neural Network
 </p>
 
@@ -39,7 +39,7 @@ The Long Short-Term Memory is composed of a linear unit surrounded by three logi
 </ul>
 
 <p align="center">
-	<img src="Images/img1.png">
+	<img width="500px" src="Images/img1.png">
 	Diagram of the Long Short-Term Memory Unit
 </p>
 
@@ -96,7 +96,7 @@ Output<sub>t</sub> = O<sub>t</sub> × tanh(Cell<sub>t</sub>)
 And that Output<sub>t</sub> is what is output into the Recurrent Network.
 
 <p align="center">
-	<img src="Images/img3.png">
+	<img width="300px" src="Images/img3.png">
 	The Logistic Function plotted
 </p>
 
