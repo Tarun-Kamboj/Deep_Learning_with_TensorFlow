@@ -35,7 +35,7 @@ Say that you want to extract what emotion the person in a photography is feeling
 But when use this picture we start running into a bottleneck! Because this image being 256x256 pixels in size correspond with an input vector of 65536 dimensions! If we used an image produced with conventional cellphone cameras, that generates images of 4000 x 3000 pixels, we would have 12 million dimensions to analyze.
 
 <p align="center">
-	<img src="Images/img2.png">
+	<img width="256px" src="Images/img2.png">
 </p>
 
 This bottleneck is further problematized as the difficulty of a machine learning problem is increased as more dimensions are involved. According to a 1982 study by C.J. Stone (<a href="http://www-personal.umich.edu/~jizhu/jizhu/wuke/Stone-AoS82.pdf">link</a>), the time to fit a model, is optimal if:
@@ -53,7 +53,7 @@ Returning to our example, we don't need to use all of the 65,536 dimensions to c
 ### Autoencoder Structure
 
 <p align="center">
-	<img width="200px" src="Images/img3.png">
+	<img width="300px" src="Images/img3.png">
 </p>
 
 An autoencoder can be divided in two parts, the <b>encoder</b> and the <b>decoder</b>.
@@ -67,7 +67,7 @@ The decoder works like encoder network in reverse. It works to recreate the inpu
 After the training has been done, you can use the encoded data as a reliable dimensionally-reduced data, applying it to any problems where dimensionality reduction seems appropriate.
 
 <p align="center">
-	<img src="Images/img4.png">
+	<img width="600px" src="Images/img4.png">
 </p>
 
 This image was extracted from the G. E. Hinton and R. R. Salakhutdinovcomparing's <a href="https://www.cs.toronto.edu/~hinton/science.pdf">paper</a>, on the two-dimensional reduction for 500 digits of the MNIST, with PCA on the left and autoencoder on the right. We can see that the autoencoder provided us with a better separation of data.
