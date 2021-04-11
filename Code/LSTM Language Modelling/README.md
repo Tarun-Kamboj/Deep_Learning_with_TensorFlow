@@ -13,14 +13,14 @@
 Language Modelling, to put it simply, <b>is the task of assigning probabilities to sequences of words</b>. This means that, given a context of one or a sequence of words in the language the model was trained on, the model should provide the next most probable words or sequence of words that follows from the given sequence of words the sentence. Language Modelling is one of the most important tasks in Natural Language Processing.
 
 <p align="center">
-	<img width="500px" src="Images/img0.png">
+	<img width="650px" src="Images/img0.png"><br>
 	Example of a sentence being predicted
 </p>
 
 In this example, one can see the predictions for the next word of a sentence, given the context "This is an". As you can see, this boils down to a sequential data analysis task -- you are given a word or a sequence of words (the input data), and, given the context (the state), you need to find out what is the next word (the prediction). This kind of analysis is very important for language-related tasks such as <b>Speech Recognition, Machine Translation, Image Captioning, Text Correction</b> and many other very relevant problems. 
 
 <p align="center">
-	<img width="500px" src="Images/img1.png">
+	<img width="650px" src="Images/img1.png"><br>
 	The above example is a schema of an RNN in execution
 </p>
 
@@ -46,7 +46,7 @@ For better processing, in this example, we will make use of <a href="https://www
 Word Embedding tends to group up similarly used words <i>reasonably</i> close together in the vectorial space. For example, if we use T-SNE (a dimensional reduction visualization algorithm) to flatten the dimensions of our vectors into a 2-dimensional space and plot these words in a 2-dimensional space, we might see something like this:
 
 <p align="center">
-	<img width="500px" src="Images/img2.png">
+	<img width="650px" src="Images/img2.png"><br>
 	T-SNE Mockup with clusters marked for easier visualization
 </p>
 
