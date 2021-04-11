@@ -20,14 +20,14 @@ This repository contains code for various Deep Learning concepts implemented usi
 	<summary> TensorFlow Basics</summary>
 	<table>
 		<th><a href="Code/TensorFlow%20Basics">Visit Directory ↗</a></th>
-		<th><img width="500px" src="Code/TensorFlow%20Basics/Images/img.png"></th>
+		<th><img width="200px" src="Code/TensorFlow%20Basics/Images/img.png"></th>
 	</table>
 </details></h3>
 <h3><details>
 	<summary> Linear Regression</summary>
 	<table>
 		<th><a href="Code/Linear%20Regression">Visit Directory ↗</a></th>
-		<th><img width="200px" src="Code/Linear%20Regression/img.png"></th>
+		<th><img width="500px" src="Code/Linear%20Regression/img.png"></th>
 	</table>
 </details></h3>
 <h3><details>
