@@ -27,7 +27,7 @@ This repository contains code for various Deep Learning concepts implemented usi
 	<summary> Linear Regression</summary>
 	<table>
 		<th><a href="Code/Linear%20Regression">Visit Directory ↗</a></th>
-		<th><img width="500px" src="Code/Linear%20Regression/img.png"></th>
+		<th><img width="200px" src="Code/Linear%20Regression/img.png"></th>
 	</table>
 </details></h3>
 <h3><details>
@@ -68,7 +68,7 @@ This repository contains code for various Deep Learning concepts implemented usi
 	<summary> AutoEncoders</summary>
 	<table>
 		<th><a href="Code/AutoEncoders">Visit Directory ↗</a></th>
-		<th><img width="500px" src="Code/AutoEncoders/Images/img0.png"></th>
+		<th><img width="400px" src="Code/AutoEncoders/Images/img0.png"></th>
 	</table>
 </details></h3>
 
